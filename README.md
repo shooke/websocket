@@ -17,7 +17,7 @@
 - error 出现错误时触发，该事件可以方便在服务端做处理，回调中可以收到websocket对象和socket链接
 - close 断开链接时触发，回调中可以收到websocket对象和socket链接
 
-2个方法
+本类还提供了2个方法
 - connectList 用来获取在线的socket列表
 - send 用来发送消息，该方法接受2个参数第一个参数是socket链接 第二个参数是message消息
 
