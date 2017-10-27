@@ -3,13 +3,13 @@
 
 主要对代码进行了事件分离，方便在不同场合使用。
 
-##文件说明
+## 文件说明
 
 - WebSocket.php 是websocket封装类
 - server.php 功能实现
 - index.html 是前端页面
 
-##功能介绍
+## 功能介绍
 
 本类提供了4个事件
 - open 建立socket链接时触发，回调中可以收到websocket对象和socket链接
@@ -21,7 +21,7 @@
 - connectList 用来获取在线的socket列表
 - send 用来发送消息，该方法接受2个参数第一个参数是socket链接 第二个参数是message消息
 
-##使用方法
+## 使用方法
 可以克隆本项目或下载本项目后
 > cd websocket
 
